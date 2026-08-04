@@ -1,0 +1,6 @@
+print("---------------my id card --------------")
+print("   name : parag ")
+print("   age :22")
+print("   city : nagpur ")
+print("   collage : Atulsir - kiren acdemy")
+print("   blood group : B+")

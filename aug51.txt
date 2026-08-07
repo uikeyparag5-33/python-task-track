@@ -1,3 +1,7 @@
+
+how python work internally? 
+
+
 Python is an object-oriented programming language, like Java. Python does not directly convert its source code into machine code. Instead, Python programs generally go through two main processes:
 
 The compilation process

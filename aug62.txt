@@ -1,3 +1,11 @@
 how python is platform independent? 
 
-Python is called platform-independent because the same source code can run on any operating system (such as Windows, macOS, or Linux) without modification, a capability achieved through a two-step execution process involving bytecode and the Python Virtual Machine (PVM). When a script is executed, the source code is first compiled into an intermediate, universal format known as bytecode (often stored as .pyc files), which is not specific to any CPU architecture or operating system; this bytecode is then interpreted by the PVM, which acts as a platform-specific translator that reads the universal instructions and converts them into the specific machine code required by the underlying hardware, meaning that while the Python code remains identical across systems, only the PVM implementation changes to match the host OS, effectively allowing developers to "write once, run anywhere."
+Python is called platform-independent because the same source code can run on any 
+operating system (such as Windows, macOS, or Linux) without modification, a capability 
+achieved through a two-step execution process involving bytecode and the Python Virtual Machine (PVM). 
+When a script is executed, the source code is first compiled into an intermediate, universal format known 
+as bytecode (often stored as .pyc files), which is not specific to any CPU architecture or operating system; this
+ bytecode is then interpreted by the PVM, which acts as a platform-specific translator that reads the universal 
+instructions and converts them into the specific machine code required by the underlying hardware, meaning that while 
+the Python code remains identical across systems, only the PVM implementation changes to match the host OS, effectively allowing
+ developers to "write once, run anywhere."
